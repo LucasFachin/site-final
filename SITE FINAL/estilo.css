@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.containerK{
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    background-color: #c79a8f;
+    width: 100%;
+}
+
+.logo,.sociai5{
+    width: 26%;
+}
+
+.logo img{
+    width: 60px;
+    cursor: pointer;
+}
+
+.menu{
+    width: 50%;
+}
+
+.menu nav a{
+    color: #ffffff;
+    text-decoration: none;
+    padding-right: 30px;
+    font-size: 18px;
+    position: relative;
+}
+
+.menu nav a::after{
+    content: " ";
+    width: 0px;
+    height: 4px;
+    background-image:linear-gradient(45deg, #ab6d65, #6e332e);
+    position: absolute;
+    top: 30px;
+    left: 0;
+    transition: width 0.5s;
+}
+
+.menu nav a:hover::after{
+    width: 30px;
+}
+
+.sociai5 a{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    background-image: linear-gradient(45deg, #ab6d65, #6e332e);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.sociai5 a i{
+    font-size: 19px;
+    color: white;
+}
+
+
+img{
+    width: 100%;
+}
+
+
+
+
+#madara{
+    display: flex;
+    background-color: #c79a8f;
+    max-width: 100;
+}
+
+#madara ul{
+    width: 60%;
+    display: flex;
+    gap: 50px;
+    margin: auto;
+}
+
+#madara ul li{
+    width:60%;
+    display: flex;
+
+}
+#caixa-1{
+    transition: transform .2s;
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+}
+
+#caixa-1:hover{
+    transform: scale(1.01);
+}
+
+#caixa-2{
+    transition: transform .2s;
+    width: 100%;
+    height: 100%;
+}
+
+#caixa-2:hover{
+    transform: scale(1.09);
+}
+
+.garou{
+    background-color: #ab6d65;
+    margin-top: 80px;
+}
+
+
+
+
+
+.pain{
+    background-color: #c79a8f;
+}
+
+.pain h1{
+    margin-left: 520px;
+}
+
+
