@@ -19,6 +19,7 @@ body{
 header{
     background-color: #c79a8f;
     width: 100%;
+    height: 80px;
 }
 
 .logo,.sociais{
@@ -83,6 +84,12 @@ header{
     height: 800px;
 }
 
+.container007{
+    background-color: #c79a8f;
+    padding-left: 640px;
+    height: 400px;
+}
+
 .img_box{
     height: 50%;
 }
@@ -108,6 +115,11 @@ header{
 #estrela{
     height: 70px;
     width: 260px;
+}
+
+.itachi{
+    padding: 20px;
+    margin: 1px;
 }
 
 .icon img{

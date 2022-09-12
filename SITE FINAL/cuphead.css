@@ -128,9 +128,8 @@ header{
 
 .container007{
     background-color: #c79a8f;
+    padding-left: 640px;
     height: 400px;
-    padding-left: 600px;
-    display: flex;
 }
 
 
@@ -141,11 +140,20 @@ header{
     display: flex;
 }
 
-.Kisame{
-    background-color: #c79a8f;
-    height: 200px;
-    padding-right: 600px;
+.KATON{
+    margin-left: 300px;
 }
+
+.itachi{
+    padding: 20px;
+    margin: 1px;
+}
+
+.Deidara{
+    padding: 20px;
+    margin: 1px;
+}
+
 
 
 
