@@ -77,26 +77,17 @@ header{
 }
 
 
-.container01{
-    
-    background-color: #c79a8f;
-}
 
 .img_box{
     height: 50%;
 }
 
-.img_box1{
-    width: 40%;
-    display: flex;
-    flex-direction: row;
-    margin-top: 20px;
-}
+
 
 
 #cuphead{
     width: 300px;
-    height: 350px;
+    height: 400px;
     margin: 5px;
     
 }
@@ -126,11 +117,7 @@ header{
     margin: 12px;
 }
 
-.container007{
-    background-color: #c79a8f;
-    padding-left: 640px;
-    height: 400px;
-}
+
 
 
 .carousel {
