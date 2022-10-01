@@ -29,10 +29,10 @@
                 <a class="nav-link" aria-current="page" href="../index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./html/sobre nos.html">Sobre-nos</a>
+                <a class="nav-link" href="./sobre nos.html">Sobre-nos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contato</a>
+                <a class="nav-link" href="./contato.html">Contato</a>
               </li>
               </div>
               <div class="collapse navbar-collapse" id="navbarNav ">
@@ -51,102 +51,73 @@
           </div>
         </div>
       </nav>
-    <!--Section: Contact v.2-->
-<section class="mb-4">
+    
 
-    <!--Section heading-->
-    <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
-    <!--Section description-->
-    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
-        a matter of hours to help you.</p>
-
-    <div class="row">
-
-        <!--Grid column-->
-        <div class="col-md-9 mb-md-0 mb-5">
-            <form id="contact-form" name="contact-form" action="./confirmacao.html" method="POST">
-
-                <!--Grid row-->
-                <div class="row p-3">
-
-                    <!--Grid column-->
-                    <div class="col-md-6">
-                        <div class="md-form mb-3">
-                            <label for="name" class="">Seu Nome</label>
-                            <input type="text" id="name" name="name" class="form-control">
-                        </div>
-                    </div>
-                    <!--Grid column-->
-
-                    <!--Grid column-->
-                    <div class="col-md-6">
-                        <div class="md-form mb-3">
-                            <label for="email" class="">Seu E-mail</label>
-                            <input type="text" id="email" name="email" class="form-control">
-                        </div>
-                    </div>
-                    <!--Grid column-->
-
-                </div>
-                <!--Grid row-->
-
-                <!--Grid row-->
-                <div class="row p-3">
-                    <div class="col-md-12">
-                        <div class="md-form mb-3">
-                            <label for="subject" class="">Assunto</label>
-                            <input type="text" id="subject" name="subject" class="form-control">
-                        </div>
-                    </div>
-                </div>
-                <!--Grid row-->
-
-                <!--Grid row-->
-                <div class="row p-3">
-
-                    <!--Grid column-->
-                    <div class="col-md-12">
-
-                        <div class="md-form text-center">
-                            <label for="message">Sua Mensagem</label>
-                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-                        </div>
-
-                    </div>
-                </div>
-                <!--Grid row-->
-
-            </form>
-
-            <div class="text-center text-md-left">
-                <a class="btn btn-dark" onclick="document.getElementById('contact-form').submit();">Enviar</a>
+      <div class="container-fluid">
+      <form>
+        <div class="form-row ">
+          <div class="col-md-4 mb-3 p-4">
+            <label for="validationServer01">Primeiro Nome</label>
+            <input type="text" class="form-control" id="validationServer01" value="" required>
             </div>
-            <div class="status"></div>
+          </div>
+          <div class="col-md-4 mb-3 p-4">
+            <label for="validationServer02">Sobre Nome</label>
+            <input type="text" class="form-control" id="validationServer02" value="" required>
+          </div>
+          </div>
+          <div class="col-md-4 mb-3 p-4">
+            <label for="validationServerUsername">E-mail</label>
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroupPrepend3">@</span>
+              </div>
+              <input type="text" class="form-control " id="validationServerUsername" aria-describedby="inputGroupPrepend3" required>
+              </div>
+            </div>
+          </div>
         </div>
-        <!--Grid column-->
-
-        <!--Grid column-->
-        <div class="col-md-3 text-center">
-            <ul class="list-unstyled mb-0">
-                <li><i class="bi bi-geo-alt-fill"></i>
-                    <p>San Francisco, CA 94126, USA</p>
-                </li>
-
-                <li><i class="bi bi-telephone-fill"></i>
-                    <p>+55 016 992570077</p>
-                </li>
-
-                <li><i class="bi bi-envelope-fill"></i>
-                    <p>fachinluucas@outlook.com</p>
-                </li>
-            </ul>
+        <div class="form-row">
+          <div class="col-md-6 mb-3 p-4">
+            <label for="validationServer03">Cidade</label>
+            <input type="text" class="form-control" id="validationServer03" required>
+            </div>
+          </div>
+          <div class="col-md-3 mb-3 p-4">
+            <label for="validationServer04">Genero</label>
+            <select class="custom-select" id="validationServer04" required>
+              <option selected disabled value=""></option>
+              <option>Mulher</option>
+              <option>Homem</option>
+            </select>
+            </div>
+          </div>
+          <div class="col-md-6 mb-3 p-4">
+            <label for="validationServer05">assunto</label>
+            <input type="text" class="form-control" id="validationServer05" required>
+            
+              
+            </div>
+          </div>
+          </div>
         </div>
-        <!--Grid column-->
-
+        <div class="form-group p-4">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck3" required>
+            <label class="form-check-label" for="invalidCheck3">
+              Você e um Robo?
+            </label>
+            <div class="invalid-feedback">
+              You must agree before submitting.
+            </div>
+          </div>
+        </div>
+        <div class="p-4">
+        <button class="btn btn-dark" type="submit">enviar</button>
+      </div>
+      </form>
     </div>
 
-</section>
-<!--Section: Contact v.2-->
 
 <div class="garou">
     <footer class=" text-center text-white">
