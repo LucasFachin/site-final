@@ -1,17 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300&display=swap');
 
+
+
 body{
+    background-color: #c79a8f;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Titillium Web', sans-serif;
 }
 
-
-
 header{
     background-color: #c79a8f;
     width: 100%;
+    
 }
 
 .logo,.sociai5{
@@ -30,6 +32,7 @@ header{
 .menu li a{
     text-decoration: none;
     position: relative;
+    color: white;
 }
 
 .menu li a::after{
@@ -65,84 +68,7 @@ header{
 }
 
 
-
-img{
-    width: 100%;
-}
-
-
-
-
-#madara ul{
-    display: flex;
-    width: 60%;
-    gap: 50px;
-    margin: auto;
-}
-
-#madara ul li {
-    list-style: none;
-}
-
-
-#caixa-1{
-    transition: transform .2s;
-    width: 100%;
-    height: 100%;
-    margin-top: 10px;
-}
-
-#caixa-1:hover{
-    transform: scale(1.01);
-}
-
-#caixa-2{
-    transition: transform .2s;
-    width: 100%;
-    height: 100%;
-}
-
-#caixa-2:hover{
-    transform: scale(1.09);
-}
-
 .garou{
     background-color: #ab6d65;
     margin-top: 80px;
-}
-
-
-
-.animate-charcter
-{
-   text-transform: uppercase;
-  background-image: linear-gradient(
-    -225deg,
-    #231557 0%,
-    #44107a 29%,
-    #ff1361 67%,
-    #fff800 100%
-  );
-  background-size: auto auto;
-  background-clip: border-box;
-  background-size: 200% auto;
-  color: #fff;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: textclip 2s linear infinite;
-  display: inline-block;
-      font-size: 60px;
-}
-
-@keyframes textclip {
-  to {
-    background-position: 200% center;
-  }
-}
-
-@media (max-width:600px) {
-    #madara ul{
-    flex-wrap: wrap;
-    }
 }
